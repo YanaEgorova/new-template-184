@@ -131,6 +131,13 @@
 .products__list .item:not(:last-child) {
     margin-bottom: 1.5rem;
 }
+.hero-products .sub-title {
+    background-color: var(--main-bg-color);
+    padding: 1rem;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
 @media screen and (min-width: 1440px) { 
     .product__img-box {
         margin: 0;
