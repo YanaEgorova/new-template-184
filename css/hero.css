@@ -28,10 +28,7 @@
 
 
 .policy__wrapper {
-    background-image: url('../img/bg2.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-color: var(--third-brand-color);
 }
 .policy {
     padding: 15rem 0;
