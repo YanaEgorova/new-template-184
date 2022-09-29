@@ -20,9 +20,10 @@ export const item = (product) => {
       </span>
 
       <div class="product__btn-block">
-      <a href="product-page.html?id=${product.id}" class="product__btn btn--first">details</a>
-  
-    <button class="product__btn js_add-to-cart">buy</button>
+      <a href="product-page.html?id=${product.id}" class="btn btn--first" style="margin: ${product.isItRing ? 'auto' : ''}">details</a>
+      ${
+        product.isItRing ? '' : '<button class="btn js_add-to-cart">buy</button>'
+      }
     </div>
       </div>
 
@@ -35,5 +36,4 @@ export const item = (product) => {
   </li>
     `
 }
-
 
