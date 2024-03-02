@@ -116,7 +116,7 @@
     justify-content: center;
 }
 .product__btn-block .btn--first {
-    margin-right: 2rem;
+    margin-right: .5rem;
 } 
 .product__btn {
     color: var(--sub-text-color);
@@ -128,7 +128,7 @@
 }
 
 
-.products__list .item:not(:last-child) {
+.products__list .item{
     margin-bottom: 1.5rem;
 }
 .hero-products .sub-title {
@@ -151,6 +151,20 @@
         display: grid;
         grid-template-columns: repeat(5, 1fr);
     }
+    .product__block {
+        min-height: 100%;
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .product__text-box {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+}
 }
 
 
